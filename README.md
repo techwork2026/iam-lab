@@ -1,4 +1,4 @@
-#Azure IAM Hands-On Lab
+# Azure IAM Hands-On Lab
 
 Hands-on Identity and Access Management (IAM) practice using Microsoft Entra ID.
 This repo demonstrates user lifecycle, RBAC, groups, and MFA through documented labs.

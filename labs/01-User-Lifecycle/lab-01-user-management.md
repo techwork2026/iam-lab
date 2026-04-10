@@ -61,3 +61,17 @@ Intern account restored from deleted users.
 - User lifecycle management
 - Identity governance basics
 - Account recovery
+
+## Result
+
+Users created:
+- New Employee
+- Contractor
+- Intern
+
+Lifecycle actions completed:
+- Disabled intern account
+- Deleted intern account
+- Restored intern account
+
+Status: Completed

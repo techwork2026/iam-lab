@@ -94,7 +94,20 @@ Status: Completed
 
 ---
 
-# Day 2 — Groups & Role-Based Access Control (RBAC)
+# Day 2 — Groups & Role-Based Access Control (RBAC) 
+## Summary
+
+This lab demonstrates hands-on Identity and Access Management (IAM) using Microsoft Entra ID.
+
+Key tasks performed:
+
+- Created and managed user accounts
+- Organized users into department-based groups
+- Implemented Role-Based Access Control (RBAC)
+- Assigned administrative roles to users
+- Verified role-based permissions
+
+This project simulates real-world enterprise IAM operations, including user lifecycle management, access control, and administrative role assignment within Microsoft Entra ID.
 
 ## Objective
 

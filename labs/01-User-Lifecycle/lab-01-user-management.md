@@ -119,3 +119,9 @@ Improper onboarding or offboarding can lead to:
 - Orphaned accounts
 
 This lab demonstrates how identity management directly impacts organizational security.
+
+## Security Insight
+
+Proper user lifecycle management prevents unauthorized access by ensuring accounts are only active when needed.
+
+Failure to properly disable or delete accounts can lead to security risks such as unauthorized access or data exposure.

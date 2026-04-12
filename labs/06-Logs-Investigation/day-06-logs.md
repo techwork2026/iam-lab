@@ -30,14 +30,13 @@ Simulate real-world IAM investigation scenarios by reviewing user sign-in activi
 
 The absence of sign-in logs indicates that no authentication attempts were made within the selected time range.
 
-This suggests the issue is not related to failed authentication or access denial, but rather one of the following:
+This suggests the issue is not related to authentication failure but may be due to:
 
-- The user has not attempted to sign in
-- The user may be using incorrect login methods or endpoints
-- The login attempt may fall outside the selected time window
+- The user not attempting to log in
+- Incorrect login methods or endpoints
+- Activity outside the selected time window
 
-Based on this data, the issue is likely user-side rather than a system or IAM configuration problem.
-
+This points to a likely user-side issue rather than an IAM system failure.
 ---
 
 ### Outcome
@@ -63,4 +62,6 @@ This lab demonstrates how sign-in logs are used to investigate authentication is
 
 ### Security Insight
 
-Sign-in logs are a critical tool for distinguishing between authentication failures and user-side issues, enabling faster and more accurate incident resolution.
+Sign-in logs are critical for distinguishing between authentication failures and user behavior issues.
+
+Even when no activity is present, logs provide valuable insight that helps eliminate potential root causes and guide further troubleshooting.

@@ -10,9 +10,7 @@ The lab simulates real-world IAM operations, including:
 - Assigning administrative permissions
 - Verifying access through role assignments
 
-This approach reflects how organizations control access at scale while maintaining security and least privilege principles.
-
-This project simulates real-world enterprise IAM operations, including user lifecycle management, access control, and administrative role assignment within Microsoft Entra ID.
+This approach reflects how organizations control access at scale while enforcing least privilege and reducing security risk.
 
 ## Objective
 
@@ -97,6 +95,7 @@ Both must be configured correctly to ensure proper access control.
 
 ## Skills Demonstrated
 
+- Microsoft Entra ID
 - Group-based access control
 - Role-Based Access Control (RBAC)
 - Administrative role assignment

@@ -44,7 +44,9 @@ While the user was correctly placed in a security group, the absence of a role a
 
 **Outcome:**
 
-Access issue resolved by applying appropriate RBAC role
+Access issue successfully resolved by assigning the appropriate RBAC role.
+
+This confirms that role assignment—not group membership—is required for permission enforcement in Microsoft Entra ID.
 
 ![Role Assigned](../../screenshots/role-assigned-fix.png)
 

@@ -108,3 +108,14 @@ Status: Completed
 
 ## User Restored
 ![User Restored](../../screenshots/user-restored.png)
+
+## Key Takeaway
+
+User lifecycle management is a critical IAM function that ensures users have appropriate access throughout their employment.
+
+Improper onboarding or offboarding can lead to:
+- Unauthorized access
+- Security risks
+- Orphaned accounts
+
+This lab demonstrates how identity management directly impacts organizational security.

@@ -88,3 +88,72 @@ Status: Completed
 
 ## User Restored
 ![User Restored](screenshots/user-restored.png)
+
+
+
+
+---
+
+# Day 2 — Groups & Role-Based Access Control (RBAC)
+
+## Objective
+
+Organize users into departments using groups and assign administrative roles using RBAC.
+
+---
+
+## Step 1 — Create Groups
+
+Created the following security groups:
+
+- Finance-Team
+- HR-Team
+- IT-Team
+
+![Groups Created](./screenshots/groups-created.png)
+
+---
+
+## Step 2 — Assign Users to Groups
+
+Users were assigned to departments:
+
+- ContractorJason → Finance-Team  
+- Maryintern → HR-Team  
+- Samantham → IT-Team  
+
+### Finance Team
+![Finance Team](./screenshots/finance-team-members.png)
+
+### HR Team
+![HR Team](./screenshots/hr-team-members.png)
+
+### IT Team
+![IT Team](./screenshots/it-team-members.png)
+
+---
+
+## Step 3 — Assign Administrative Role
+
+Assigned **User Administrator** role to:
+
+- ContractorJason
+
+![Role Assigned](./screenshots/role-assigned-user-admin.png)
+
+---
+
+## Step 4 — Verify Role Assignment
+
+Confirmed the role is active under the user account.
+
+![Role Confirmation](./screenshots/user-role-confirmation.png)
+
+---
+
+## Skills Demonstrated
+
+- Group-based access control
+- Role-Based Access Control (RBAC)
+- Administrative role assignment
+- Identity organization by department

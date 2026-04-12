@@ -1,15 +1,16 @@
 # Day 2 — Groups & Role-Based Access Control (RBAC) 
 ## Summary
 
-This lab demonstrates hands-on Identity and Access Management (IAM) using Microsoft Entra ID.
+This lab demonstrates how Role-Based Access Control (RBAC) is implemented in Microsoft Entra ID by organizing users into security groups and assigning administrative roles.
 
-Key tasks performed:
+The lab simulates real-world IAM operations, including:
 
-- Created and managed user accounts
-- Organized users into department-based groups
-- Implemented Role-Based Access Control (RBAC)
-- Assigned administrative roles to users
-- Verified role-based permissions
+- Structuring users by department
+- Managing group-based access
+- Assigning administrative permissions
+- Verifying access through role assignments
+
+This approach reflects how organizations control access at scale while maintaining security and least privilege principles.
 
 This project simulates real-world enterprise IAM operations, including user lifecycle management, access control, and administrative role assignment within Microsoft Entra ID.
 
@@ -52,7 +53,7 @@ Users were assigned to departments:
 
 ## Step 3 — Assign Administrative Role
 
-Assigned **User Administrator** role to:
+Assigned **User Administrator** role to the user:
 
 - ContractorJason  
 
@@ -72,7 +73,8 @@ Confirmed the role is active under the user account.
 
 - Group membership organizes users but does not grant permissions by itself  
 - Administrative roles must be assigned to provide access  
-- RBAC ensures permissions are controlled based on role instead of individual users  
+- RBAC ensures permissions are controlled based on role instead of individual users
+- Improper role assignment can lead to over-permissioned accounts, increasing security risk
 
 ---
 

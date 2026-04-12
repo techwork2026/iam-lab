@@ -86,12 +86,14 @@ Verified that role assignment is required for users to gain administrative permi
 
 ## Key Takeaway
 
-RBAC is critical in IAM:
+RBAC is essential for scalable access control in enterprise environments.
 
-- Groups = organization  
-- Roles = access  
+- Groups organize users
+- Roles grant permissions
 
-Both must be configured correctly to ensure proper access control.
+Without proper role assignment, users cannot perform required tasks—even if grouped correctly.
+
+This demonstrates the importance of aligning identity structure with access control policies.
 
 ## Skills Demonstrated
 

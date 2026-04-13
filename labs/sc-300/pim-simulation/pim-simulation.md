@@ -110,15 +110,13 @@ Organizations use PIM to:
 
 ## Lab Limitation
 
-PIM features were not available due to licensing restrictions in the lab environment.
+Privileged Identity Management (PIM) requires a Microsoft Entra ID P2 or Governance license, which was not available in this lab environment.
 
-This simulation demonstrates how privileged access would be securely implemented in a real-world environment.
+Due to this limitation, direct configuration of eligible role assignments and just-in-time activation could not be performed.
 
-## Enterprise Scenario Example
-
-A company has 50 employees across IT, HR, and Finance departments.
-
-Previously, IT administrators were assigned permanent roles such as **User Administrator**, giving them continuous elevated access.
+However, the current RBAC configuration was analyzed, and a secure PIM-based access model was designed and documented to demonstrate how privileged access would be implemented in a real-world enterprise environment.
+### PIM License Restriction
+![PIM License Restriction](../../screenshots/sc-300/pim-simulation/pim-license-restriction.png)
 
 ### Risk:
 - Permanent admin access increases the risk of account compromise  

@@ -89,12 +89,10 @@ PIM introduces controlled, temporary access to privileged roles.
 
 ## Key Takeaway
 
-PIM enforces:
-- Just-in-time access  
-- Least privilege  
-- Time-based permissions  
+This lab demonstrates how traditional RBAC models create security risks through permanent privileged access, and how Privileged Identity Management (PIM) enforces just-in-time access, least privilege, and time-bound permissions to significantly reduce the risk of account compromise and improve overall security posture.
 
-This significantly reduces risk from privileged accounts.
+This approach aligns with Zero Trust principles by eliminating standing administrative access and requiring verification and authorization for every privileged action.
+
 
 ---
 
